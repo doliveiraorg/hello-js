@@ -4,6 +4,8 @@ metadata:
   labels:
     run: app-js
   name: app-js
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"  
 spec:
   containers:
   - image: httpd:latest

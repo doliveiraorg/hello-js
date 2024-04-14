@@ -6,5 +6,5 @@ metadata:
   name: app-js
 spec:
   containers:
-  - image: nginx
+  - image: image-registry.openshift-image-registry.svc:5000/openshift/httpd:latest
     name: app-js
